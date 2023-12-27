@@ -1,0 +1,125 @@
+.left-state {
+  position: relative;
+
+  .leftBg {
+    width: 375px;
+    height: 812px;
+  }
+
+  .leftModal {
+    position: absolute;
+    left: 50px;
+    top: 150px;
+
+    .leftModalBg {
+      width: 280px;
+      height: 400px;
+    }
+
+    .modalClose {
+      text-align: center;
+
+      img {
+        width: 40px;
+        height: 40px;
+      }
+    }
+  }
+
+  .leftFullModal {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    .leftFullModalBg {
+      width: 375px;
+      height: 812px;
+      border-radius: 8px;
+    }
+  }
+}
+
+.right-state {
+  width: 400px;
+  height: 1000px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+  overflow: scroll;
+
+  .title {
+    width: 100%;
+    height: 66px;
+    line-height: 66px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    border-bottom: 1px solid #e6e6e6;
+  }
+
+  .form-state {
+    width: 368px;
+    margin-left: 16px;
+    margin-top: 20px;
+
+    .from-title {
+      height: 14px;
+      font-size: 14px;
+      font-weight: 500;
+      color: rgba(40, 40, 40, 1);
+      line-height: 14px;
+    }
+
+    .from-usage {
+      width: 368px;
+      height: 68px;
+      background: rgba(250, 250, 250, 1);
+      margin-top: 15px;
+
+      .form-position {
+        padding-top: 14px;
+        margin-left: 10px;
+      }
+
+      .form-position-upload {
+        margin-top: 30px;
+      }
+    }
+  }
+
+  .form-last {
+    margin-top: 430px;
+  }
+
+  .pre-img {
+    width: 280px;
+    height: 400px;
+    background: rgba(245, 245, 245, 1);
+    position: relative;
+
+    .pre-img-bg {
+      width: 280px;
+      height: 400px;
+    }
+
+    .pre-menu-icon {
+      position: absolute;
+      top: 1px;
+      display: flex;
+      right: 1px;
+
+      .icon-upload,
+      .icon-delete,
+      .icon-link {
+        margin-right: 10px;
+        margin-top: 10px;
+        cursor: pointer;
+
+        img {
+          width: 24px;
+          height: 24px;
+        }
+      }
+    }
+  }
+}

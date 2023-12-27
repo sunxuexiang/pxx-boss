@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "module": "es2020",
+    "target": "es6",
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "rootDirs": ["src", "web_modules"],
+    "paths": {
+      "qmkit": ["web_modules/qmkit"],
+      "biz": ["web_modules/biz"]
+    },
+    "noUnusedLocals": true,
+    "noUnusedParameters": true
+  },
+  "strict":false,
+  "exclude": ["node_modules", "dist"],
+  "awesomeTypescriptLoaderOptions": {
+    "useCache": true,
+    "useBabel": true,
+    "isolatedModules": true,
+    "forceIsolatedModules": true,
+    "transpileOnly": true,
+    "reportFiles": ["src/**/*.{ts,tsx}", "web_modules/**/*.{ts,tsx}"]
+  }
+}
